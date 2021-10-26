@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: rgb(249, 249, 249);
+}
+
+header{
+    height: 70px;
+    background-color: white;
+}
+
+#logo{
+}
+
+#titolologo{
+}
+
+}
+
+#lista{
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+    border-radius: 5px; 
+}
+
+.task{
+    background-color: rgb(42, 165, 241);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+
+
+}
+.section{
+    background-color: white;
+    color: rgb(204, 204, 204);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+#intestlista{
+    width: 800px;
+    border-bottom: rgb(249, 249, 249);
+    height: 50px;
+}
+
+span{
+    background-color: rgb(42, 165, 241) ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+.titololista{
+    margin-bottom: 0px;
+}
+
+.corpolista{
+    margin-bottom: 30px;
+}

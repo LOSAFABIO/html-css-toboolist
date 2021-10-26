@@ -9,6 +9,7 @@ header{
 }
 
 #logo{
+    vertical-align: middle;
 }
 
 #titolologo{
@@ -16,11 +17,12 @@ header{
 
 }
 
-#lista{
+#container{
     background-color: white;
     width: 800px;
     height: 1000px;
     border-radius: 5px; 
+    border: white;
 }
 
 .task{
@@ -47,13 +49,55 @@ header{
     height: 50px;
 }
 
-span{
+.edit{
     background-color: rgb(42, 165, 241) ;
     border-radius: 5px;
     padding: 6px;
     font-size: 12px;
     color: white;
 }
+
+#viola{
+    background-color: purple ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+#verde{
+    background-color: green ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+#arancio{
+    background-color: orange ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+#rosa{
+    background-color: pink ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+#senape{
+    background-color: greenyellow ;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+
 
 .titololista{
     margin-bottom: 0px;

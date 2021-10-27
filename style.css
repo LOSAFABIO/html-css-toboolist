@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(249, 249, 249);
+    box-sizing: border-box;
 }
 
 header{
@@ -10,94 +11,79 @@ header{
 
 #logo{
     vertical-align: middle;
+    margin: 10px;
 }
 
 #titolologo{
-}
-
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 #container{
     background-color: white;
-    width: 800px;
-    height: 1000px;
-    border-radius: 5px; 
+    width: 50%;
+    height: 650px;    
+    border-radius: 10px; 
     border: white;
+    margin: 300px;
+    margin-top: 60px;
 }
 
 .task{
     background-color: rgb(42, 165, 241);
     color: white;
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px;
-
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: rgb(42, 165, 241) solid 1px;
 
 }
 .section{
     background-color: white;
     color: rgb(204, 204, 204);
-    border-radius: 5px;
-    height: 40px;
-    padding: 10px;
-
-}
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: rgb(204, 204, 204) solid 1px;
+    font-weight: bold;
+}   
 
 #intestlista{
-    width: 800px;
-    border-bottom: rgb(249, 249, 249);
-    height: 50px;
+    border-bottom:3px solid rgb(249, 249, 249);
+    padding: 10px;
+    padding-left: 50px;
 }
 
-.edit{
+.text{
+    border-radius: 5px;
+    padding: 5px 10px;  
+    font-size: 12px;
+    color: white;
+
+}
+
+.azzurro{
     background-color: rgb(42, 165, 241) ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
 }
 
-#viola{
+.viola{
     background-color: purple ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
 }
 
-#verde{
+.verde{
     background-color: green ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
 }
 
-#arancio{
+.arancio{
     background-color: orange ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
 }
 
-#rosa{
+.rosa{
     background-color: pink ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
 }
 
-#senape{
-    background-color: greenyellow ;
-    border-radius: 5px;
-    padding: 6px;
-    font-size: 12px;
-    color: white;
+.senape{
+      background-color: greenyellow ;
 }
-
-
 
 .titololista{
     margin-bottom: 0px;
@@ -105,4 +91,29 @@ header{
 
 .corpolista{
     margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.check{
+    color: rgb(35, 196, 2);
+    border: 1px solid rgb(35, 196, 2);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.cross{
+    color: rgb(223, 12, 12);
+    border: 1px solid rgb(223, 12, 12);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 10px;
 }
